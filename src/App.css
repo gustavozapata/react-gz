@@ -1,33 +1,96 @@
-.App {
+:root {
+  --purple: #2c0033;
+  --navy: #2d21b6;
+  --yellow: #ffd400;
+  --blue: #236cff;
+  --green: #1fcf93;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 1.9em;
+}
+
+/* Header */
+.title {
+  color: var(--purple);
+  font-size: 2.7em;
+}
+.lines {
+  text-align: center;
+  margin: 10px auto;
+}
+.lines span {
+  display: inline-block;
+  width: 60%;
+  height: 20px;
+  background-color: #f8f8f8;
+}
+.lines span:last-child {
+  width: 65%;
+  margin-top: -10px;
+  background-color: #e9e9e9;
+}
+/* Header */
+
+/* App */
+.app {
+  width: 95%;
+  margin: 0 auto;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+/* App */
+
+/* TodoPreview */
+.todo-preview {
+  width: 200px;
+  height: 600px;
+  background-color: var(--yellow);
+  padding: 1px;
+}
+.todo-preview h1 {
+  font-weight: 900;
+  color: var(--blue);
+  margin: 10px auto;
   text-align: center;
 }
+/* TodoPreview */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Poll */
+.poll {
+  width: 400px;
+  height: 300px;
+  background-color: var(--green);
 }
+.poll h1 {
+  text-align: center;
+  margin: 10px auto;
+  color: var(--purple);
+}
+/* Poll */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* FilesTool */
+.files-tool {
+  width: 200px;
+  height: 600px;
+  background-color: var(--navy);
+  padding: 1px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.files-tool h1 {
+  margin: 10px auto;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* FilesTool */
