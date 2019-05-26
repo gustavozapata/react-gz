@@ -49,13 +49,15 @@ h1 {
 }
 section {
   display: flex;
+  margin: 50px auto;
   justify-content: space-around;
+  align-items: center;
 }
 /* App */
 
 /* TodoPreview */
 .todo-preview {
-  width: 200px;
+  flex-basis: 20%;
   height: 600px;
   background-color: var(--yellow);
   padding: 1px;
@@ -70,7 +72,8 @@ section {
 
 /* Poll */
 .poll {
-  width: 400px;
+  flex-basis: 40%;
+
   height: 300px;
   background-color: var(--green);
 }
@@ -83,7 +86,7 @@ section {
 
 /* FilesTool */
 .files-tool {
-  width: 200px;
+  flex-basis: 20%;
   height: 600px;
   background-color: var(--navy);
   padding: 1px;
