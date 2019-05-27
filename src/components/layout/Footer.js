@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{ marginBottom: "20px" }}>
       <span
         style={{
           width: "65%",
@@ -12,7 +12,16 @@ const Footer = () => {
           backgroundColor: "var(--orange)"
         }}
       />
-      <h3 style={footerStyle}>Copyright &copy; 2019</h3>
+      <h3 style={footerStyle}>
+        <a
+          href="https://gustavozapata.me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GZ
+        </a>{" "}
+        Copyright &copy; 2019
+      </h3>
     </div>
   );
 };

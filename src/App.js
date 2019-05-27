@@ -8,6 +8,8 @@ import TodoPreview from "./components/TodoPreview";
 import FilesTool from "./components/FilesTool";
 import Poll from "./components/Poll";
 import Todo from "./components/pages/Todo";
+import Quiz from "./components/Quiz";
+import CommentText from "./components/CommentText";
 
 import "./App.css";
 
@@ -22,10 +24,16 @@ class App extends Component {
             path="/"
             render={props => (
               <React.Fragment>
-                <section>
+                <section className="section-main">
                   <TodoPreview />
                   <Poll />
                   <FilesTool />
+                </section>
+                <section className="section2">
+                  <Quiz />
+                </section>
+                <section className="section-comments">
+                  <CommentText />
                 </section>
               </React.Fragment>
             )}
