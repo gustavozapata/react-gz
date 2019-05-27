@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gustavozapata/react-gz.git/static/css/main.a0dfedfe.chunk.css",
-    "main.js": "/gustavozapata/react-gz.git/static/js/main.df7bc37a.chunk.js",
-    "main.js.map": "/gustavozapata/react-gz.git/static/js/main.df7bc37a.chunk.js.map",
-    "runtime~main.js": "/gustavozapata/react-gz.git/static/js/runtime~main.761a905f.js",
-    "runtime~main.js.map": "/gustavozapata/react-gz.git/static/js/runtime~main.761a905f.js.map",
-    "static/js/2.a14472f4.chunk.js": "/gustavozapata/react-gz.git/static/js/2.a14472f4.chunk.js",
-    "static/js/2.a14472f4.chunk.js.map": "/gustavozapata/react-gz.git/static/js/2.a14472f4.chunk.js.map",
-    "index.html": "/gustavozapata/react-gz.git/index.html",
-    "precache-manifest.bf2589821e5760042aba997edf2685dd.js": "/gustavozapata/react-gz.git/precache-manifest.bf2589821e5760042aba997edf2685dd.js",
-    "service-worker.js": "/gustavozapata/react-gz.git/service-worker.js",
-    "static/css/main.a0dfedfe.chunk.css.map": "/gustavozapata/react-gz.git/static/css/main.a0dfedfe.chunk.css.map"
+    "main.css": "/react-gz/static/css/main.a0dfedfe.chunk.css",
+    "main.js": "/react-gz/static/js/main.7e047112.chunk.js",
+    "main.js.map": "/react-gz/static/js/main.7e047112.chunk.js.map",
+    "runtime~main.js": "/react-gz/static/js/runtime~main.f3141b07.js",
+    "runtime~main.js.map": "/react-gz/static/js/runtime~main.f3141b07.js.map",
+    "static/js/2.a14472f4.chunk.js": "/react-gz/static/js/2.a14472f4.chunk.js",
+    "static/js/2.a14472f4.chunk.js.map": "/react-gz/static/js/2.a14472f4.chunk.js.map",
+    "index.html": "/react-gz/index.html",
+    "precache-manifest.273f9bdc45f5031bc696812e5075e522.js": "/react-gz/precache-manifest.273f9bdc45f5031bc696812e5075e522.js",
+    "service-worker.js": "/react-gz/service-worker.js",
+    "static/css/main.a0dfedfe.chunk.css.map": "/react-gz/static/css/main.a0dfedfe.chunk.css.map"
   }
 }
