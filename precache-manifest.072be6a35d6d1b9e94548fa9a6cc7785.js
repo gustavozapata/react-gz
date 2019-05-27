@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc260dc48596bcd13d0103366f2b6181",
+    "revision": "9cfb4cdab288e9dd0a6a771a4753e424",
     "url": "/gustavozapata/react-gz.git/index.html"
   },
   {
-    "revision": "d6cc9f33176ab082f435",
-    "url": "/gustavozapata/react-gz.git/static/css/main.309aedf2.chunk.css"
+    "revision": "381edd96c4530599d8c9",
+    "url": "/gustavozapata/react-gz.git/static/css/main.620e8ad6.chunk.css"
   },
   {
     "revision": "d6cd5c61a243f4536ce8",
     "url": "/gustavozapata/react-gz.git/static/js/2.887ec2a8.chunk.js"
   },
   {
-    "revision": "d6cc9f33176ab082f435",
+    "revision": "381edd96c4530599d8c9",
     "url": "/gustavozapata/react-gz.git/static/js/main.0ffef7b0.chunk.js"
   },
   {
