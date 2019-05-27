@@ -4,6 +4,7 @@
   --yellow: #ffd400;
   --blue: #236cff;
   --green: #1fcf93;
+  --orange: #ff644c;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
 }
 h1 {
   font-weight: 900;
-  font-size: 1.9em;
+  font-size: 1.8em;
 }
 
 /* Header */
@@ -51,7 +52,6 @@ section {
   display: flex;
   margin: 50px auto;
   justify-content: space-around;
-  align-items: center;
 }
 /* App */
 
@@ -61,12 +61,37 @@ section {
   height: 600px;
   background-color: var(--yellow);
   padding: 1px;
+  text-align: center;
+  position: relative;
 }
 .todo-preview h1 {
   font-weight: 900;
   color: var(--blue);
   margin: 10px auto;
   text-align: center;
+}
+.todo-preview-container {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.todo-preview-container h4 {
+  font-style: italic;
+}
+.todo-preview button {
+  padding: 3px 20px;
+  background-color: var(--blue);
+  border: 1px solid black;
+  border-radius: 25px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 1em;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -30px;
 }
 /* TodoPreview */
 

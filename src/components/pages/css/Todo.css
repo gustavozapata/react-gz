@@ -1,0 +1,12 @@
+.todo h1 {
+  color: var(--blue);
+  text-align: center;
+  font-size: 2.5em;
+  margin: 50px auto 20px auto;
+}
+.container {
+  width: 60%;
+  height: 500px;
+  margin: 30px auto;
+  background-color: var(--yellow);
+}
