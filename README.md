@@ -10,5 +10,5 @@ Web application with multiple tools that demostrate the use of `state`, `props` 
 
 ### Local Setup
 
-1. \$ npm install
-2. \$ npm start
+1. `$ npm install`
+2. `$ npm start`
