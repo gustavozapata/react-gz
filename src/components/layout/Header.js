@@ -9,7 +9,7 @@ function Header() {
         <h1 className="title">REACT.GZ</h1>
         <span style={gzLine} className="gz-line" />
       </div>
-      <Link to="/">
+      <Link to="/react-gz">
         <img src={homeImage} alt="Home icon" style={homeImgStyle} />
       </Link>
       <div className="lines">

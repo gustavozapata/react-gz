@@ -21,7 +21,7 @@ class App extends Component {
           <Header />
           <Route
             exact
-            path="/"
+            path="/react-gz"
             render={props => (
               <React.Fragment>
                 <section className="section-main">
@@ -38,7 +38,7 @@ class App extends Component {
               </React.Fragment>
             )}
           />
-          <Route path="/todo" component={Todo} />
+          <Route path="/react-gz/todo" component={Todo} />
           <Footer />
         </div>
       </Router>

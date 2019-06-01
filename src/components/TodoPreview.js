@@ -10,7 +10,7 @@ class TodoPreview extends Component {
         <div className="todo-preview-container">
           <h4>All done here!</h4>
         </div>
-        <Link to="/todo">
+        <Link to="/react-gz/todo">
           <button>GO</button>
         </Link>
       </div>
