@@ -5,7 +5,7 @@ import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 
 import TodoPreview from "./components/TodoPreview";
-import FilesTool from "./components/FilesTool";
+import TheCloud from "./components/TheCloud";
 import Poll from "./components/Poll";
 import Todo from "./components/pages/Todo";
 import Quiz from "./components/Quiz";
@@ -27,7 +27,7 @@ class App extends Component {
                 <section className="section-main">
                   <TodoPreview />
                   <Poll />
-                  <FilesTool />
+                  <TheCloud />
                 </section>
                 <section className="section2">
                   <Quiz />

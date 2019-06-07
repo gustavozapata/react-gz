@@ -6,6 +6,7 @@
   --green: #1fcf93;
   --orange: #ff644c;
   --vinotinto: #6e2f56;
+  --pink: #ff0a66;
 }
 
 * {
@@ -161,19 +162,25 @@ button {
 }
 /* Poll */
 
-/* FilesTool */
-.files-tool {
+/* TheCloud */
+.the-cloud {
   flex-basis: 20%;
   height: 600px;
   background-color: var(--navy);
   padding: 1px;
   color: white;
 }
-.files-tool h1 {
+.the-cloud h1 {
   margin: 10px auto;
   text-align: center;
 }
-/* FilesTool */
+.the-cloud p {
+  color: var(--pink);
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: center;
+}
+/* TheCloud */
 
 /* Quiz */
 .section2 {

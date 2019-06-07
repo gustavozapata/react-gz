@@ -5,14 +5,16 @@ class Poll extends Component {
   render() {
     return (
       <div className="poll">
+        <h5>num of voters: 21,954</h5>
         <h1>POLL</h1>
-        <p>Which technology you're using the most in 2019?</p>
+        <p>What operating system do you use for development purposes?</p>
         <div style={{ margin: "10px auto", textAlign: "center" }}>
           <span>
-            <button>React</button><button>Java</button>
+            <button>Windows</button>
+            <button>macOS</button>
           </span>
           <span>
-            <button>Python</button><button>Vue</button>
+            <button>Linux</button>
           </span>
         </div>
         <button id="pollSubmit">Submit</button>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class FilesTool extends Component {
+class TheCloud extends Component {
   dropFileStyles = () => {
     return {
       height: "300px",
@@ -40,14 +40,14 @@ class FilesTool extends Component {
     this.setState({
       message: `${
         ev.dataTransfer.items[0].getAsFile().name
-        } was successfully dropped`
+      } was successfully dropped`
     });
   };
 
   render() {
     return (
-      <div className="files-tool">
-        <h1>FILES TOOL</h1>
+      <div className="the-cloud">
+        <h1>THE CLOUD</h1>
         <div
           className="drop-area"
           style={this.dropFileStyles()}
@@ -66,9 +66,10 @@ class FilesTool extends Component {
             {this.state.message}
           </h4>
         </div>
+        <p>Max. file size: 200Mb</p>
       </div>
     );
   }
 }
 
-export default FilesTool;
+export default TheCloud;
