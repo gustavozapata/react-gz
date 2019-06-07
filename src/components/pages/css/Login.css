@@ -1,0 +1,36 @@
+.login {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+.login form {
+  width: 250px;
+  margin: 30px auto;
+  text-align: left;
+  position: relative;
+  /* border: 1px solid red; */
+}
+.login form label {
+  font-weight: bold;
+  margin: 10px 5px;
+}
+.login form input {
+  width: 245px;
+  height: 40px;
+  border-radius: 25px;
+  margin: 5px 0;
+  border: 3px solid var(--navy);
+  padding-left: 10px;
+  font-size: 1.3em;
+}
+.login span {
+  position: absolute;
+  cursor: pointer;
+  bottom: 66px;
+  right: 20px;
+}
+.login button {
+  background-color: var(--green);
+  padding: 2px 18px;
+  margin: 20px 0 0 80px;
+}

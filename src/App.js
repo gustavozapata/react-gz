@@ -4,12 +4,17 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 
+//Components
 import TodoPreview from "./components/TodoPreview";
 import TheCloud from "./components/TheCloud";
 import Poll from "./components/Poll";
-import Todo from "./components/pages/Todo";
 import Quiz from "./components/Quiz";
 import CommentText from "./components/CommentText";
+
+//Pages
+import Login from "./components/pages/Login";
+import Signup from "./components/pages/Signup";
+import Todo from "./components/pages/Todo";
 
 import "./App.css";
 
@@ -38,6 +43,8 @@ class App extends Component {
               </React.Fragment>
             )}
           />
+          <Route path="/react-gz/login" component={Login} />
+          <Route path="/react-gz/signup" component={Signup} />
           <Route path="/react-gz/todo" component={Todo} />
           <Footer />
         </div>

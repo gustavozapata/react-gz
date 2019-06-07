@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div>
+      <div className="login-container" style={loginStyle}>
+        <Link to="/react-gz/login">
+          <p>Login</p>
+        </Link>
+      </div>
       <div style={{ margin: "20px auto", textAlign: "center" }}>
         <h1 className="title">REACT.GZ</h1>
         <span style={gzLine} className="gz-line" />
@@ -19,6 +24,14 @@ function Header() {
     </div>
   );
 }
+
+const loginStyle = {
+  position: "absolute",
+  left: "40px",
+  top: "30px",
+  fontWeight: "bold",
+  color: "var(--blue)"
+};
 
 const homeImgStyle = {
   width: "50px",
