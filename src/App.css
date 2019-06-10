@@ -105,6 +105,20 @@ button {
   left: 50%;
   margin-left: -30px;
 }
+.lista {
+  position: absolute;
+  top: 55px;
+  left: 5px;
+  font-weight: bold;
+}
+.lista ul {
+  text-align: left;
+}
+.lista ul li {
+  margin-top: 12px;
+  list-style: none;
+  border-bottom: 1px solid var(--blue);
+}
 /* TodoPreview */
 
 /* Poll */

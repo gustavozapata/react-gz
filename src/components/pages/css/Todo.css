@@ -50,9 +50,7 @@
   border: none;
   background-color: transparent;
   text-decoration: underline;
-}
-.todoItem button:last-child {
-  right: 50px;
+  color: rgb(233, 17, 118);
 }
 .todoItem input[type="checkbox"] {
   vertical-align: middle;
@@ -60,7 +58,7 @@
 .input-task {
   background-color: transparent;
   border: none;
-  width: 70%;
+  width: 85%;
   outline: none;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;

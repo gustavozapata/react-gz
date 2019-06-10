@@ -26,17 +26,6 @@ class Todo extends Component {
     });
   };
 
-  editItem = id => {
-    this.setState({
-      tasks: this.state.tasks.map(task => {
-        if (task.id === id) {
-          console.log(id);
-        }
-        return task;
-      })
-    });
-  };
-
   deleteItem = id => {
     this.setState({
       tasks: [...this.state.tasks.filter(task => task.id !== id)]
@@ -77,7 +66,6 @@ class Todo extends Component {
             <h3 style={this.tasksEmpty()}>{this.state.status}</h3>
             <Tasks
               tasks={this.state.tasks}
-              editItem={this.editItem}
               deleteItem={this.deleteItem}
               toggleComplete={this.toggleComplete}
               typeTask={this.typeTask}

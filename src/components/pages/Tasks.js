@@ -8,7 +8,6 @@ class Tasks extends Component {
       <TodoItem
         key={task.id}
         task={task}
-        editItem={this.props.editItem}
         deleteItem={this.props.deleteItem}
         toggleComplete={this.props.toggleComplete}
         typeTask={this.props.typeTask}
@@ -20,7 +19,6 @@ class Tasks extends Component {
 Tasks.protoTypes = {
   tasks: PropTypes.array.isRequired,
   deleteItem: PropTypes.func.isRequired,
-  editItem: PropTypes.func.isRequired,
   typeTask: PropTypes.func.isRequired,
   toggleComplete: PropTypes.func.isRequired
 };

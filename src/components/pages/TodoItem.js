@@ -8,11 +8,25 @@ class TodoItem extends Component {
     };
   };
 
+  showDelete = () => {
+    return {
+      visibility: this.props.task.completed ? "visible" : "hidden"
+    };
+  };
+
+  editTask = (este, id) => {
+    [...document.getElementsByClassName("elcheckbox")].forEach(ele => {
+      ele.checked = false;
+    });
+    this.props.toggleComplete(este, id);
+  };
+
   render() {
     const { id, task } = this.props.task;
     return (
       <div className="todoItem" style={this.getStyle()}>
         <input
+          className="elcheckbox"
           type="checkbox"
           onChange={this.props.toggleComplete.bind(this, id)}
         />{" "}
@@ -22,9 +36,16 @@ class TodoItem extends Component {
           className="input-task"
           value={task}
           onChange={this.props.typeTask.bind(this, id)}
+          onFocus={
+            this.props.task.completed ? this.editTask.bind(this, id) : null
+          }
         />
-        <button onClick={this.props.deleteItem.bind(this, id)}>delete</button>
-        <button onClick={this.props.editItem.bind(this, id)}>edit</button>
+        <button
+          onClick={this.props.deleteItem.bind(this, id)}
+          style={this.showDelete()}
+        >
+          delete
+        </button>
       </div>
     );
   }
@@ -33,7 +54,6 @@ class TodoItem extends Component {
 TodoItem.protoTypes = {
   tasks: PropTypes.object.isRequired,
   deleteItem: PropTypes.func.isRequired,
-  editItem: PropTypes.func.isRequired,
   typeTask: PropTypes.func.isRequired,
   toggleComplete: PropTypes.func.isRequired
 };

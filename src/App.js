@@ -27,7 +27,7 @@ class App extends Component {
           <Route
             exact
             path="/react-gz"
-            render={props => (
+            render={() => (
               <React.Fragment>
                 <section className="section-main">
                   <TodoPreview />
