@@ -12,7 +12,9 @@ function Header() {
       </div>
       <div style={{ margin: "20px auto", textAlign: "center" }}>
         <h1 className="title">REACT.GZ</h1>
-        <span style={gzLine} className="gz-line" />
+        <Link to="/react-gz/learning">
+          <span style={gzLine} className="gz-line" />
+        </Link>
       </div>
       <Link to="/react-gz">
         <img src={homeImage} alt="Home icon" style={homeImgStyle} />

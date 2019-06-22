@@ -16,6 +16,9 @@ import Login from "./components/pages/Login";
 import Signup from "./components/pages/Signup";
 import Todo from "./components/pages/Todo";
 
+//Testing
+import Parent from "./learning/Parent";
+
 import "./App.css";
 
 class App extends Component {
@@ -46,6 +49,7 @@ class App extends Component {
           <Route path="/react-gz/login" component={Login} />
           <Route path="/react-gz/signup" component={Signup} />
           <Route path="/react-gz/todo" component={Todo} />
+          <Route path="/react-gz/learning" component={Parent} />
           <Footer />
         </div>
       </Router>
