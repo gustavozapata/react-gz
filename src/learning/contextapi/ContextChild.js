@@ -15,8 +15,8 @@ class ContextChild extends Component {
         >
           <h2>Context Child</h2>
           <br />
-          <h3>&lt;Grandchild alias=&#123;this.props.alias&#125; /&gt;</h3>
-          <ContextGrandchild alias={this.props.alias} />
+          <h3>&lt;ContextGrandchild /&gt;</h3>
+          <ContextGrandchild />
         </div>
       </React.Fragment>
     );

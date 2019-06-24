@@ -37,7 +37,15 @@ class Parent extends Component {
                 <Child alias={this.state.nombre} />
               </div>
               <Link to="/react-gz/contextapi">
-                <p>Context API Redux-like</p>
+                <p
+                  style={{
+                    textAlign: "center",
+                    margin: "25px auto",
+                    fontWeight: "bold"
+                  }}
+                >
+                  Context API Redux-like
+                </p>
               </Link>
             </>
           )}

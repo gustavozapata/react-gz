@@ -3,35 +3,42 @@ import ContextChild from "./ContextChild";
 import "./styles.css";
 
 import { Link } from "react-router-dom";
+import MyProvider from "./MyContext";
 
 class ContextParent extends Component {
-  state = {
-    nombre: "Tavo",
-    age: 30,
-    male: true
-  };
   render() {
     return (
-      <>
-        <div className="parent">
-          <h1>Context Parent</h1>
-          <h3>state = &#123;</h3>
-          <h3 className="indent">
-            nombre: <span style={{ color: "var(--pink)" }}>Tavo</span>
-          </h3>
-          <h3 className="indent">age: 30</h3>
-          <h3 className="indent">male: true</h3>
-          <h2>&#125;</h2>
-          <br />
-          <h3>&lt;Child alias=&#123;this.state.nombre&#125; /&gt;</h3>
-          <ContextChild alias={this.state.nombre} />
-          <h3>&lt;Child alias=&#123;this.state.nombre&#125; /&gt;</h3>
-          <ContextChild alias={this.state.nombre} />
-        </div>
-        <Link to="/react-gz/learning">
-          <p>React State & Props</p>
-        </Link>
-      </>
+      //3. wrap the entire component into context provider
+      <MyProvider>
+        <>
+          <div className="contextparent">
+            <h1>Context Parent</h1>
+            <br />
+            <h4>
+              <i>import MyProvider</i>
+            </h4>
+            <br />
+            <h3>&lt;MyProvider&gt;</h3>
+            <br />
+            <h3 className="indent">&lt;Child /&gt;</h3>
+            <ContextChild />
+            <h3 className="indent">&lt;Child /&gt;</h3>
+            <ContextChild />
+            <h3>&lt;/MyProvider&gt;</h3>
+          </div>
+          <Link to="/react-gz/learning">
+            <p
+              style={{
+                textAlign: "center",
+                margin: "25px auto",
+                fontWeight: "bold"
+              }}
+            >
+              React State & Props
+            </p>
+          </Link>
+        </>
+      </MyProvider>
     );
   }
 }
