@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gz/static/css/main.3ee5d5a1.chunk.css",
-    "main.js": "/react-gz/static/js/main.78a15c91.chunk.js",
-    "main.js.map": "/react-gz/static/js/main.78a15c91.chunk.js.map",
+    "main.css": "/react-gz/static/css/main.04c1e324.chunk.css",
+    "main.js": "/react-gz/static/js/main.ed421bbd.chunk.js",
+    "main.js.map": "/react-gz/static/js/main.ed421bbd.chunk.js.map",
     "runtime~main.js": "/react-gz/static/js/runtime~main.f3141b07.js",
     "runtime~main.js.map": "/react-gz/static/js/runtime~main.f3141b07.js.map",
     "static/js/2.01745abe.chunk.js": "/react-gz/static/js/2.01745abe.chunk.js",
     "static/js/2.01745abe.chunk.js.map": "/react-gz/static/js/2.01745abe.chunk.js.map",
     "index.html": "/react-gz/index.html",
-    "precache-manifest.a539925dba0fa91669eab28ec6a2e6eb.js": "/react-gz/precache-manifest.a539925dba0fa91669eab28ec6a2e6eb.js",
+    "precache-manifest.16a39b76219f2d97b2f542cf011d4299.js": "/react-gz/precache-manifest.16a39b76219f2d97b2f542cf011d4299.js",
     "service-worker.js": "/react-gz/service-worker.js",
-    "static/css/main.3ee5d5a1.chunk.css.map": "/react-gz/static/css/main.3ee5d5a1.chunk.css.map"
+    "static/css/main.04c1e324.chunk.css.map": "/react-gz/static/css/main.04c1e324.chunk.css.map"
   }
 }
