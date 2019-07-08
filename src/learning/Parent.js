@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 import ContextParent from "./contextapi/ContextParent";
+import ToggleWithHooks from "./hooks/ToggleWithHooks";
 
 class Parent extends Component {
   state = {
@@ -47,10 +48,33 @@ class Parent extends Component {
                   Context API Redux-like
                 </p>
               </Link>
+              <Link to="/react-gz/hooks">
+                <p
+                  style={{
+                    textAlign: "center",
+                    margin: "25px auto",
+                    fontWeight: "bold"
+                  }}
+                >
+                  React Hooks
+                </p>
+              </Link>
+              <Link to="/react-gz/cyclehooks">
+                <p
+                  style={{
+                    textAlign: "center",
+                    margin: "25px auto",
+                    fontWeight: "bold"
+                  }}
+                >
+                  Life Cycle Hooks
+                </p>
+              </Link>
             </>
           )}
         />
         <Route path="/react-gz/contextapi" component={ContextParent} />
+        <Route path="/react-gz/hooks" component={ToggleWithHooks} />
       </Router>
     );
   }
