@@ -126,6 +126,7 @@ button {
   flex-basis: 40%;
   position: relative;
   height: 300px;
+  padding: 1px;
   background-color: var(--green);
 }
 .poll h1 {
@@ -176,6 +177,9 @@ button {
 }
 .sel {
   background-color: red;
+}
+div span .select {
+  background-color: rgb(21, 241, 223);
 }
 /* Poll */
 
