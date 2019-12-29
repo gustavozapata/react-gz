@@ -11,7 +11,7 @@ Web application with multiple tools that demostrate the use of `state`, `props` 
 1. `$ npm install`
 2. `$ npm start`
 
-![alt text](https://user-images.githubusercontent.com/13090095/71560891-4ff9f200-2a67-11ea-8228-a7c60418d5db.png)
+![alt text](https://user-images.githubusercontent.com/13090095/71561071-b2ec8880-2a69-11ea-9a94-1080a65c9371.png)
 
 #### Designed and Developed by Gustavo Zapata
 https://gustavozapata.me
