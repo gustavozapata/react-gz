@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import PollDao from "./PollDao";
 
 class Poll extends Component {
   state = {
@@ -28,10 +27,6 @@ class Poll extends Component {
     }
   };
 
-  updateDB = () => {
-    // PollDao.addPoll("linux");
-  };
-
   submitPoll = () => {
     if (this.state.sel) {
       this.setState({
@@ -40,7 +35,6 @@ class Poll extends Component {
         macos: false,
         linux: false
       });
-      this.updateDB();
     }
   };
 
